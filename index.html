@@ -3,28 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Loading...</title>
-    <meta http-equiv="refresh" content="3;url=https://queen501.site/">
+    <meta http-equiv="refresh" content="3;url=https://burmeseplay.bet/">
     
     <style>
+        * {
+            box-sizing: border-box;
+        }
         html, body {
-            height: 100%;
+            width: 100%;
+            height: 100vh;
             margin: 0;
             padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f4f4f4;
         }
 
-        body {
-            font-family: sans-serif;
+        .center-box {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background-color: #f4f4f4;
+            text-align: center;
         }
 
         .loading-text {
-            font-size: 2em;
+            font-size: 1.8em;
             font-weight: bold;
-            color: #555;
+            color: #333;
             margin-bottom: 20px;
         }
 
@@ -32,28 +39,20 @@
             background-color: #007bff;
             color: white;
             padding: 15px 30px;
-            text-align: center;
             text-decoration: none;
-            display: inline-block;
-            font-size: 1.2em;
+            font-size: 1.1em;
             border-radius: 8px;
-            border: none;
-            cursor: pointer;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
 
-        .redirect-button:hover {
-            background-color: #0056b3;
-        }
-        
         .spinner {
             border: 5px solid #f3f3f3;
             border-top: 5px solid #3498db;
             border-radius: 50%;
-            width: 50px;
-            height: 50px;
+            width: 45px;
+            height: 45px;
             animation: spin 1s linear infinite;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
         }
 
         @keyframes spin {
@@ -63,10 +62,12 @@
     </style>
 </head>
 <body>
-    <div class="spinner"></div>
-    <div class="loading-text">Loading...</div>
-    <a href="https://queen501.site/" class="redirect-button">
-        လင့်ခ်အသစ်ဆီသို့ သွားရန် နှိပ်ပါ
-    </a>
+    <div class="center-box">
+        <div class="spinner"></div>
+        <div class="loading-text">Loading...</div>
+        <a href="https://burmeseplay.bet/" class="redirect-button">
+            လင့်ခ်အသစ်ဆီသို့ သွားရန် နှိပ်ပါ
+        </a>
+    </div>
 </body>
 </html>
