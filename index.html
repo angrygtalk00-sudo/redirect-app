@@ -3,28 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Loading...</title>
-    <meta http-equiv="refresh" content="3;url=https://queen501.site/">
+    <meta http-equiv="refresh" content="3;url=https://ing501.website/">
     
     <style>
-        * {
-            box-sizing: border-box;
-        }
         html, body {
-            width: 100%;
-            height: 100vh;
+            height: 100%;
             margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
             background-color: #f4f4f4;
+            display: grid;
+            place-items: center;
         }
 
-        .center-box {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+        .center-container {
             text-align: center;
         }
 
@@ -43,6 +33,7 @@
             font-size: 1.1em;
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            display: inline-block;
         }
 
         .spinner {
@@ -52,7 +43,7 @@
             width: 45px;
             height: 45px;
             animation: spin 1s linear infinite;
-            margin-bottom: 15px;
+            margin: 0 auto 15px auto;
         }
 
         @keyframes spin {
@@ -62,10 +53,10 @@
     </style>
 </head>
 <body>
-    <div class="center-box">
+    <div class="center-container">
         <div class="spinner"></div>
         <div class="loading-text">Loading...</div>
-        <a href="https://queen501.site/" class="redirect-button">
+        <a href="https://ing501.website/" class="redirect-button">
             လင့်ခ်အသစ်ဆီသို့ သွားရန် နှိပ်ပါ
         </a>
     </div>
