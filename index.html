@@ -2,10 +2,74 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Redirecting...</title>
-    <meta http-equiv="refresh" content="0;url=https://burmeseplay.bet/">
+    <title>Loading...</title>
+    <!-- Meta Refresh: 3 စက္ကန့်အတွင်း အလိုအလျောက် သွားရန် -->
+    <meta http-equiv="refresh" content="3;url=https://ing501.website/">
+    
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4; /* နောက်ခံအရောင် အနည်းငယ်ထည့်ထားသည် */
+        }
+
+        .loading-text {
+            font-size: 2em; /* Loading စာလုံးကို ကြီးအောင်လုပ်သည် */
+            font-weight: bold;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        .redirect-button {
+            background-color: #007bff; /* ခလုတ်အရောင် (အပြာရောင်) */
+            color: white; /* စာသားအရောင် (အဖြူရောင်) */
+            padding: 15px 30px; /* ခလုတ်အကြီးအသေး */
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1.2em; /* ခလုတ်စာလုံးအရွယ်အစား */
+            border-radius: 8px; /* ခလုတ်ထောင့်အဝိုင်း */
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* ခလုတ်အရိပ် */
+            transition: background-color 0.3s ease; /* အရောင်ပြောင်းလဲမှုအတွက် အထူးပြုလုပ်ချက် */
+        }
+
+        .redirect-button:hover {
+            background-color: #0056b3; /* ခလုတ်ကို mouse ထောက်လိုက်လျှင် အရောင်ပြောင်းခြင်း */
+        }
+        
+        /* Spinner animation ( optional - ပိုမိုက်ချင်လျှင် ထည့်နိုင်သည် ) */
+        .spinner {
+            border: 5px solid #f3f3f3; /* Light grey */
+            border-top: 5px solid #3498db; /* Blue */
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin-bottom: 20px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
 </head>
 <body>
-    <p>Loading... If you are not redirected, <a href="https://burmeseplay.bet/">click here</a>.</p>
+    <!-- Loading spinner ထည့်ခြင်း (မလိုချင်ရင် ဒီ line ကိုဖျက်နိုင်သည်) -->
+    <div class="spinner"></div>
+    
+    <div class="loading-text">Loading...</div>
+    
+    <!-- သိသာထင်ရှားသော ခလုတ်ပုံစံ -->
+    <a href="https://ing501.website/" class="redirect-button">
+        လင့်ခ်အသစ်ဆီသို့ သွားရန် နှိပ်ပါ
+    </a>
 </body>
 </html>
